@@ -11,7 +11,7 @@ function App() {
     return (
       <Router>
         <Switch>
-          <Route path = "/movie/:id">
+          <Route path={`${process.env.PUBLIC_URL}/`} element={}>
             <Detail />
 
           </Route>
